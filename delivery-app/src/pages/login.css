@@ -1,0 +1,32 @@
+.form{
+    position: relative;
+    top: -404px;
+    justify-content: center;
+    display: grid;
+    margin: 25px;
+    height: 663px;
+    left: 1004px;
+}
+.content{
+    position: relative;
+    top: -82px
+}
+.header{
+    position: relative;
+    right: -3px;
+    top: -63px
+}
+.button1{    position: relative;
+    right: -22px;
+    border-radius: 50px;
+    height: 42px;
+    width: 87px;
+    top: -72px;
+}
+.button2{    position: relative;
+    right: -205px;
+        border-radius: 50px;
+        height: 42px;
+        width: 87px;
+        bottom: 114px;
+    }

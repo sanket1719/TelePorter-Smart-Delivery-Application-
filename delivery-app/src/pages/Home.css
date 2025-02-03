@@ -1,0 +1,93 @@
+/* Apply a gradient background with a subtle texture */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url(../src/shared/images/fp.jpg), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); /* Overlay a gradient */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the container to be more centered and have a modern card-like appearance */
+  .container {
+    width: 50%; /* Slightly wider for better spacing */
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Softer shadow effect */
+  }
+
+  /* Styling for header with a clean and bold look */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(0, 123, 255, 0.9); /* Light blue background */
+    color: white;
+    border-radius: 8px;
+  }
+
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+  /* Heading styles for a modern look */
+  h1 {
+    font-size: 32px;
+    margin-top: 0;
+    color: #333;
+  }
+
+  /* Button styling with hover effects */
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+
+  /* Footer with more legible font style */
+  .footer {
+    margin-top: 30px;
+    font-size: 18px;
+    font-style: italic;
+    color: #444;
+    position: relative;
+    top: 40px;
+  }
+
+  /* Style for links inside footer */
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
