@@ -1,93 +1,470 @@
-/* Apply a gradient background with a subtle texture */
-body {
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    background-image: url(../src/shared/images/fp.jpg), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); /* Overlay a gradient */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
+.fpbody {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(../shared/images/Designer1.jpeg);;
+}
+.fpcontainer {
+  width:40%;
+  margin: 200px auto;
+  padding: 100px;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+.fpheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+.fph1{
+  font-size: 24px;
+  position: relative;
+  top: -50px;
+}
+.fpbuttons {
+  margin-top: 20px;
+}
+.fpbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.fpbutton:hover {
+  background-color: #0056b3;
+}
+.fpfooter {
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+  position: relative;
+  top: 50px;
+}
+.fpa{
+color: black;
+}
 
-  /* Style the container to be more centered and have a modern card-like appearance */
-  .container {
-    width: 50%; /* Slightly wider for better spacing */
-    margin: 100px auto;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    border-radius: 12px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Softer shadow effect */
-  }
 
-  /* Styling for header with a clean and bold look */
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
-    font-size: 24px;
-    font-weight: 600;
-    background-color: rgba(0, 123, 255, 0.9); /* Light blue background */
-    color: white;
-    border-radius: 8px;
-  }
 
-  .header a {
-    color: white;
-    text-decoration: none;
-  }
 
-  .header a:hover {
-    text-decoration: underline;
-  }
 
-  /* Heading styles for a modern look */
-  h1 {
-    font-size: 32px;
-    margin-top: 0;
-    color: #333;
-  }
 
-  /* Button styling with hover effects */
-  .buttons {
-    margin-top: 20px;
-  }
 
-  .button {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 15px;
-    font-size: 18px;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
+/* Delivery_person_login css */
 
-  .button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-  }
+.dplcontainer{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+.dplheader{
+  right: -45px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 50px;
+}
+.dpltext{
+  color: rgb(255, 52, 52);
+  font-size: 20px;
+  font-weight: 750;
+      left: 43px;
+  position: relative;
+}
+.dplform{
+  position: relative;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  align-items: center;
+  border: solid 3px;
+  size-adjust: 50px;
+  width: 350px;
+  height: 500px;
+  background: white;
+  left: 1000px;
+  top: -263px;
+}
+.dplinput{
+  size: 10px;
+  padding-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.dplimg{
 
-  /* Footer with more legible font style */
-  .footer {
-    margin-top: 30px;
-    font-size: 18px;
-    font-style: italic;
-    color: #444;
-    position: relative;
-    top: 40px;
-  }
+  position: relative;
+  height:40px;
+  padding-right: 20px;
+}
+.dplinput{
+  display: flex;
+  padding-left: 20px;
+  width: 300px;
+  padding-top: 30px;
+}
+.dplmeg_text{
 
-  /* Style for links inside footer */
-  .footer a {
-    color: #007bff;
-    text-decoration: none;
-  }
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(174, 217, 255);
+  font-style: italic;
+  font-size: 30px;
+  right: -50px;
+  position: relative;
+  top: 110px;
+}
+.dplbtn1{
+  background-color: rgb(70, 70, 255);
+  position: relative;
+  right: -82px;
+  width: 100px;
+  height: 40px;
+  top: 26px;
+  border-radius: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+.dplbtn2{
+  background-color: rgb(70, 70, 255);
+  position: relative;
+  right: -113px;
+  top: 26px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  justify-content: center;
+  cursor: pointer;
 
-  .footer a:hover {
-    text-decoration: underline;
-  }
+}
+.dplalt{
+  position: relative;
+  left: 73px;
+  bottom: -33px;
+
+}
+.dplbody{
+  margin-top: -200px;
+  background-image: url('../shared/images/bg2.jpg');
+}
+
+
+
+
+
+
+
+/* Vender_login css */
+
+.vlcontainer {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: cyan;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.vlcard {
+  background-color: oldlace;;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+
+}
+
+.vlheading {
+  font-style: italic;
+  top: -12px;
+}
+
+.vlform {
+  display: flex;
+  flex-direction: column;
+}
+
+.vlformGroup {
+  margin-bottom: 1rem;
+}
+
+.vllabel {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.vlinput {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.vlbuttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.vlbutton {
+  width: 50%;
+  padding: 0.4rem;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.vlsignUpContainer {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.vlsignUpText {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.vlsignUpButton {
+  background-color: transparent;
+  border: none;
+  color: #4f46e5;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.vlheader {
+  display: flex
+  ;
+      background-color: #9099f9;
+      height: 116px;
+      align-content: flex-end;
+      align-items: stretch;
+      position-area: top;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      font-style: italic;
+      flex-direction: column-reverse;
+      font-size: 86px;
+}
+
+.vltext {
+  text-align: center;
+  font-size: 38px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.vlinput {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #212a38;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.vlcontainer {
+  justify-content: flex-end;
+  padding-right: 10%;
+  background-image: url(../shared/images/Designer.jpeg);
+}
+.vlbody {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+
+/* vender disply css */
+
+/* .vdbody {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.vdcontainer {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: relative;
+  right: -600px;
+  top: 15px;
+}
+
+.vdh2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vdadd-item {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.vdform-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.vdlabel {
+  margin-bottom: 5px;
+}
+
+.vdinput {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.vdhelp-profile {
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.vdheader {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+font-size: 22px;
+font-weight: bold;
+color: white;
+}
+
+.vdbody {
+font-family: Arial, sans-serif;
+text-align: center;
+background-image: url(../shared/images/Designer2.jpeg);;
+}
+
+.vda{
+color: black;
+}
+
+
+
+
+
+
+
+
+/* delivery person page css */
+
+.dpcontainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.dptitle {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.dpsidebar {
+width: 200px;
+padding: 10px;
+background: linear-gradient(45deg, black, transparent);
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+.dpproduct-list {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.dpproduct-card {
+background: linear-gradient(45deg, black, transparent);
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 200px;
+}
+
+.dpaccept-button {
+margin-top: 10px;
+padding: 8px 12px;
+/* background: #007bff; */
+/* color: white; */
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.dpaccept-button:hover {
+background: #0056b3;
+}
+
+.dphelp-profile {
+margin-top: 20px;
+color: blue;
+cursor: pointer;
+}
+.dpheader {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+font-size: 22px;
+font-weight: bold;
+color: white;
+}
+
+.dpbody {
+font-family: Arial, sans-serif;
+text-align: center;
+background-image: url(../shared/images/fp.jpg);;
+}
+
+.dpa{
+color: whitesmoke;
+}
+.dph3{
+color: wheat;
+}

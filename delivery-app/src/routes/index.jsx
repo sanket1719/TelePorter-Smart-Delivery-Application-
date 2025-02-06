@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import VendorLogin from '../pages/Vendor_login';
-import DeliveryPersonLogin from '../pages/Delivery_Person_login';
+import VendorRegister from '../pages/Vendor_register';
+import DeliveryPersonRegister from '../pages/Delivery_Person_register';
 
 const AppRoutes = () => {
     return(
         <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/vendorLogin' element={<VendorLogin/>}/>
-            <Route path='/deliveryPersonLogin' element={<DeliveryPersonLogin/>}/>
+            <Route path='/vendorRegister' element={<VendorRegister/>}/>
+            <Route path='/deliveryPersonRegister' element={<DeliveryPersonRegister/>}/>
         </Routes>
     );
 };
