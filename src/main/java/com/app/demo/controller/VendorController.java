@@ -1,5 +1,7 @@
 package com.app.demo.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,4 +25,17 @@ public class VendorController {
 		Vendor registeredVendor = vendorService.registerVendor(vendor);
 		return ResponseEntity.ok(registeredVendor);
 	}
+	
+	@PostMapping("/login")
+    public ResponseEntity<?> loginVendor(@RequestBody Map<String, String> credentials) {
+        String email = credentials.get("email");
+        String password = credentials.get("password");
+
+        Vendor vendor = vendorService.loginVendor(email, password);
+        if (vendor != null) {
+            return ResponseEntity.ok(Map.of("message", "Login successful", "vendorId", vendor.getId()));
+        } else {
+            return ResponseEntity.status(401).body(Map.of("error", "Invalid email or password"));
+        }
+    }
 }
