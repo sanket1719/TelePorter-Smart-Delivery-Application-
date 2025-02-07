@@ -26,17 +26,4 @@ public class DeliveryPersonnelController {
 		return ResponseEntity.ok(deliveryPersonnel);
 	}
 	
-	@PostMapping("/login")
-    public ResponseEntity<?> loginDeliveryPersonnel(@RequestBody Map<String, String> credentials) {
-        String email = credentials.get("email");
-        String password = credentials.get("password");
-
-        DeliveryPersonnel personnel = deliveryPersonnelService.loginDeliveryPersonnel(email, password);
-        if (personnel != null) {
-            return ResponseEntity.ok(Map.of("message", "Login successful", "personnelId", personnel.getId()));
-        } else {
-            return ResponseEntity.status(401).body(Map.of("error", "Invalid email or password"));
-        }
-    }
-	
 }
