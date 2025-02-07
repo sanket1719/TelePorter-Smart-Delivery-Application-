@@ -14,12 +14,13 @@ public class Rating {
 
     private int rating; 
     private String review;
+//    private Long deliveryPersonId;
     
     @ManyToOne
-    @JoinColumn(name = "vendor_id", nullable = false)
+    @JoinColumn(name = "vendorId", nullable = false)
     private Vendor vendor;
 
     @ManyToOne
-    @JoinColumn(name = "delivery_person_id", nullable = false)
+    @JoinColumn(name = "deliveryPersonId", nullable = false)
     private DeliveryPersonnel deliveryPersonnel;
 }
