@@ -1,0 +1,824 @@
+.fpbody {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(../shared/images/Designer1.jpeg);
+    height: 738px;
+}
+.fpcontainer {
+    width:40%;
+    margin: 200px auto;
+    padding: 100px;
+    border: 2px solid #333;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+}
+.fpheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.fph1{
+    font-size: 24px;
+    position: relative;
+    top: -50px;
+}
+.fpbuttons {
+    margin-top: 20px;
+}
+.fpbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fpbutton:hover {
+    background-color: #0056b3;
+}
+.fpfooter {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+    position: relative;
+    top: 50px;
+}
+.fpa{
+  color: black;
+}
+
+
+
+
+
+
+
+/* Delivery_person_login css */
+
+.dpscontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 30px;
+}
+.dpsheader{
+    right: -45px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 50px;
+}
+.dpstext{
+    color: rgb(255, 52, 52);
+    font-size: 20px;
+    font-weight: 750;
+        /* left: 43px; */
+    position: relative;
+}
+.dpsform{
+  position: relative;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  align-items: center;
+  border: solid 3px;
+  size-adjust: 50px;
+  width: 350px;
+  height: 520px;
+  background: white;
+  left: 1000px;
+  top: -330px;
+}
+.dpsinput{
+    size: 10px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.dpsimg{
+    
+    position: relative;
+    height:40px;
+    padding-right: 20px;
+}
+.dpsinput{
+    display: flex;
+    padding-left: 20px;
+    width: 300px;
+    padding-top: 30px;
+}
+.dpsmeg_text{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(174, 217, 255);
+    font-style: italic;
+    font-size: 30px;
+    right: 250px;
+    position: relative;
+    top: 110px;
+}
+.dpsbtn1{
+    background-color: rgb(70, 70, 255);
+    position: relative;
+    right: 30px;
+    width: 100px;
+    height: 40px;
+    top: 26px;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.dpsbtn2{
+    background-color: rgb(70, 70, 255);
+    position: relative;
+    right: 20px;
+    top: 26px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.dpsalt{
+    position: relative;
+    /* left: 73px; */
+    bottom: -33px;
+
+}
+.dpsbody{
+    margin-top: -200px;
+    background-image: url('../shared/images/bg2.jpg');
+  }
+
+
+
+
+
+
+
+  /* Vender_login css */
+
+.vlcontainer {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cyan;
+    justify-content: center;
+    padding-right: 5%;
+  }
+  
+  .vlcard {
+    background-color: oldlace;;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+  }
+  
+  .vlheading {
+    font-style: italic;
+    top: -12px;
+  }
+  
+  .vlform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vlformGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .vllabel {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .vlinput {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    outline: none;
+  }
+  
+  .vlbuttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .vlbutton {
+    width: 50%;
+    padding: 0.4rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .vlsignUpContainer {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .vlsignUpText {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .vlsignUpButton {
+    background-color: transparent;
+    border: none;
+    color: #4f46e5;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .vlheader {
+    display: flex
+    ;
+        background-color: #9099f9;
+        height: 116px;
+        align-content: flex-end;
+        align-items: stretch;
+        position-area: top;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-style: italic;
+        flex-direction: column-reverse;
+        font-size: 86px;
+  }
+  
+  .vltext {
+    text-align: center;
+    font-size: 38px;
+    font-style: italic;
+    margin: 0 auto;
+  }
+  
+  .vlinput {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #212a38;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    outline: none;
+  }
+  
+  .vlcontainer {
+    justify-content: flex-end;
+    padding-right: 10%;
+    background-image: url(../shared/images/Designer.jpeg);
+    height: 738px;
+  }
+  .vlbody {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+  /* vender disply css */
+
+/* .vdbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.vdcontainer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+    right: -600px;
+    top: 15px;
+}
+
+.vdh2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vdadd-item {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.vdform-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vdlabel {
+    margin-bottom: 5px;
+}
+
+.vdinput {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.vdhelp-profile {
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.vdheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.vdbody {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(../shared/images/Designer2.jpeg);
+  height: 738px;
+}
+
+.vda{
+  color: black;
+}
+
+
+
+
+
+
+
+
+/* delivery person page css */
+
+.dpcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dptitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dpsidebar {
+  width: 200px;
+  padding: 10px;
+  background: linear-gradient(45deg, black, transparent);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dpproduct-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dpproduct-card {
+  background: linear-gradient(45deg, black, transparent);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.dpaccept-button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  /* background: #007bff; */
+  /* color: white; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dpaccept-button:hover {
+  background: #0056b3;
+}
+
+.dphelp-profile {
+  margin-top: 20px;
+  color: blue;
+  cursor: pointer;
+}
+.dpheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.dpbody {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(../shared/images/fp.jpg);
+  height: 738px;
+}
+
+.dpa{
+  color: whitesmoke;
+}
+.dph3{
+  color: wheat;
+}
+
+
+
+
+
+
+
+/* vender Dashboard css */
+
+.vdddashboard-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.vdddelivery-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.vdddelivery-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.vddempty-text {
+  color: gray;
+  font-style: italic;
+}
+
+.vddbutton-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.vddprimary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vddprimary-btn:hover {
+  background-color: #0056b3;
+}
+
+.vddsecondary-btn {
+  background-color: #ddd;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vddsecondary-btn:hover {
+  background-color: #bbb;
+}
+
+.vddcomplete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.vddmodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vddmodal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.vddmodal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.vddheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: wheat;
+}
+
+.vddbody {
+  background-image: url(../shared/images/venderdash.jpg);
+  height: 738px;
+}
+
+.vdda{
+  color: whitesmoke;
+}
+.vddh3{
+  color: wheat;
+}
+.hhelp-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.hhelp-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hp {
+  margin: 5px 0;
+  color: #555;
+}
+.vdddashboard-container {
+  max-width: 780px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-size: 20px;
+}
+
+.vdddelivery-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.vdddelivery-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.vddempty-text {
+  color: gray;
+  font-style: italic;
+}
+
+.vddbutton-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.vddprimary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vddprimary-btn:hover {
+  background-color: #0056b3;
+}
+
+.vddsecondary-btn {
+  background-color: #ddd;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vddsecondary-btn:hover {
+  background-color: #bbb;
+}
+
+.vddcomplete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+
+.vddmodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vddmodal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.vddmodal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.vddheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: wheat;
+}
+
+.vddbody {
+  background-image: url(../shared/images/venderdash.jpg);
+  height: 738px;
+}
+
+.vdda{
+  color: whitesmoke;
+}
+.vddh3{
+  color: wheat;
+}
+.dpheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: wheat;
+}
+
+.dptitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dpnav {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input Section */
+.dpinput-section {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.dpinput-section input {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dpadd-btn {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Search Bar */
+.dpsearch-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Orders Container */
+.dporders-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.dporder-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dpaccept-btn {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}
+
+.dpaccepted {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.dpbody {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(../shared/images/fp.jpg);
+  height: 738px;
+}
